@@ -23,6 +23,11 @@ class Cube{
     }
   }
 
+  public function getCube()
+  {
+    return $this->cube;
+  }
+
   public function query($x1, $y1, $z1, $x2, $y2, $z2)
   {
       $sum = 0;
