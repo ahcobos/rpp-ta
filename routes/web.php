@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', array('uses' => 'CubeController@index'));
+Route::post('/resolve/', array('uses' => 'CubeController@resolve', 'as' => 'cube.resolve'));
