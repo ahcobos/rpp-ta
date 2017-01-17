@@ -36,7 +36,7 @@ class Cube{
       return $sum;
   }
 
-  public function updateValue($x, $y, $z, $value)
+  public function update($x, $y, $z, $value)
   {
     $this->cube[$x][$y][$z] = $value;
   }
